@@ -19,7 +19,5 @@ window.onload = function(){
 
 
 
-  //who[a] + action[b] + what[c] + when[d] //--> ???
-
 
 
