@@ -6,14 +6,14 @@ window.onload = function(){
   let what = ['my homework', 'my phone', 'the car', 'my code'];
   let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
 
-    function randomizer (arr) {
+    function arrRandomizer (arr) {
       return arr[Math.floor(Math.random() * arr.length)];
     }
     
-    let whoRandom = randomizer(who); 
-    let actionRandom = randomizer(action); 
-    let whatRandom = randomizer(what); 
-    let whenRandom = randomizer(when); 
+    let whoRandom = arrRandomizer(who); 
+    let actionRandom = arrRandomizer(action); 
+    let whatRandom = arrRandomizer(what); 
+    let whenRandom = arrRandomizer(when); 
 
     document.getElementById("excuse").innerHTML = (`${whoRandom} ${actionRandom} ${whatRandom} ${whenRandom}`)
 } 
